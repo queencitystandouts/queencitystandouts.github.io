@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Private Soccer Training in Charlotte | Queen City Standouts
+    text: Elite 1-on-1 & Small Group Soccer Training
+  button: Book a Free Session
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Personalized Private Soccer Training focuse on technical, physical, and mental performance"
     section: services
     list:
       - title: "E-Commerce"
