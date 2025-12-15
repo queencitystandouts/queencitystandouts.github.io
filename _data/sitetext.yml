@@ -70,8 +70,8 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Why QCS?"
+    body: "Both Coach Adam and Coach Luca are respectively professional and college athletes who are actively persuing their career. we believe this makes our focus about fast reaults because we are in the same mindset. this means effective training. effective coaching. and most inportantly not wasting time doing things you can do by yourself. thats the QCS way"
     section: about
 
   clients:
@@ -131,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "text or call 704-255-5442"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
