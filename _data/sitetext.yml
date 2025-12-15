@@ -21,14 +21,14 @@ en: &DEFAULT_EN
     text: "Personalized Private Soccer Training focuse on technical, physical, and mental performance"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "1 on 1 private training"
+        desc: "improve your soccer ability on the field with a focus of techncical, physical, and mental preperation for all skill levels and positions."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "small group sessions"
+        desc: "Don't want to train alone, no worries! train in a small group where we focus on not only technical mastery but also tactical understanding and skill development."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "game analysis"
+        desc: "Have your games analyzed by a professional so that you can stand out on the soccer field."
         icon: fab fa-markdown
 
   portfolio:
