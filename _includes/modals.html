@@ -1,33 +1,20 @@
 <!-- Portfolio Modals -->
 {% for project in site.portfolio %}
-<div
-  class="portfolio-modal modal fade"
-  id="p{{ forloop.index }}"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
->
+<div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
+      <div class="close-modal" data-bs-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
-              <!-- Project Details -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              <img
-                class="img-fluid d-block mx-auto"
-                src="{{ project.image }}"
-                alt="{{ project.alt }}"
-              />
+              <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
               <p>{{ project.content }}</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <button class="btn btn-primary" data-bs-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
                 {{ site.data.sitetext[site.locale].portfolio.closebutton | default: "Close Project" }}
               </button>
@@ -39,26 +26,3 @@
   </div>
 </div>
 {% endfor %}
-<!-- End Portfolio Modals -->
-
-<!-- Timed Free Clinic Pop-up -->
-<div class="modal fade" id="freeClinicPopup" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-center p-4">
-      <h4>Join our Free Soccer Clinic!</h4>
-      <p>Sign up today and get a free session with Queen City Standouts.</p>
-      <a href="https://link-to-your-free-clinic" class="btn btn-primary">Book Now</a>
-      <button type="button" class="btn btn-secondary mt-2" data-dismiss="modal">Close</button>
-    </div>
-  </div>
-</div>
-
-<!-- Trigger Free Clinic Pop-up after 5 seconds -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      var popup = new bootstrap.Modal(document.getElementById('freeClinicPopup'));
-      popup.show();
-    }, 5000);
-  });
-</script>
