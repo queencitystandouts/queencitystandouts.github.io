@@ -10,11 +10,11 @@
 # English [default] (https://localizely.com/language-code/en/)
 # -----------------
 en: &DEFAULT_EN
-  header:
-title: Private Soccer Training in Charlotte | Queen City Standouts
-text: "Elite 1-on-1 & Small Group Soccer Training"
-button: "Book a Free Session"
-buttonlink: "#services"
+header:
+  title: Private Soccer Training in Charlotte | Queen City Standouts
+  text: "Elite 1-on-1 & Small Group Soccer Training"
+  button: "Book a Free Session"
+  buttonlink: "#services"
 
   services:
     title: "Services"
