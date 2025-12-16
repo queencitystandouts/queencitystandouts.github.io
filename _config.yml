@@ -69,7 +69,7 @@ plugins:
 # Popup / Modal Settings
 # -------------------------
 popup:
-  show: true
+  show: false
   title: "Join Our Free Clinic!"
   message: "Sign up for a free soccer clinic and see how QCS can help you improve."
   button_text: "Reserve Spot"
