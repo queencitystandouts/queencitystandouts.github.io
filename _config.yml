@@ -1,44 +1,70 @@
-# Site settings
-url: "https://queencitystandouts.com"
-baseurl: ""
+# -------------------------
+# Site Settings
+# -------------------------
+url: "https://queencitystandouts.com"   # Base hostname & protocol
+baseurl: ""                             # Subpath of your site
 
-title: Queen City Standouts
-email: queencitystandouts@gmail.com
-description: Private soccer training in Charlotte, NC for youth, high school, and advanced players.
-author: Queen City Standouts
+title: "Queen City Standouts"
+email: "queencitystandouts@gmail.com"
+description: "Private soccer training in Charlotte, NC for youth, high school, and advanced players."
+author: "Queen City Standouts"
 locale: "en-US"
 
-# Custom style settings
+# -------------------------
+# Style & Theme
+# -------------------------
 style:
-  highlight: "#008080"   # teal
+  highlight: "#008080"   # Teal
   black: "#000000"
   white: "#FFFFFF"
   header-image: "/assets/img/placeholder-header.jpg"
   contact-image: "/assets/img/placeholder-contact.jpg"
+  fonts:
+    - for: "body"
+      name: "Montserrat"
+    - for: "heading"
+      name: "Roboto Slab"
 
+# -------------------------
 # Analytics
+# -------------------------
 analytics:
   google: UA-XXXXXXXXX-X  # Replace with your GA tracking ID
 
+# -------------------------
 # Blog / Pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# Collections
+# -------------------------
 collections:
   portfolio:
 
-# Markdown processor
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# jekyll-paginate-v2 settings
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 5
+  permalink: "/blog/page/:num/"
+  title: ":title - Page :num"
+
+# -------------------------
+# Markdown Processor
+# -------------------------
 markdown: kramdown
 
+# -------------------------
 # Plugins
+# -------------------------
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate-v2
 
-# Popup settings (custom variable you can reference in layout)
+# -------------------------
+# Popup / Modal Settings
+# -------------------------
 popup:
   show: true
   title: "Join Our Free Clinic!"
@@ -46,9 +72,14 @@ popup:
   button_text: "Reserve Spot"
   button_link: "https://calendly.com/queencitystandouts/free-clinic"
 
-  pagination:
-  enabled: true
-  collection: posts
-  per_page: 5
-  permalink: '/blog/page/:num/'
-  title: ':title - Page :num'
+# -------------------------
+# SEO Defaults
+# -------------------------
+seo:
+  title: "{{ page.title | default: site.title }}"
+  description: "{{ page.description | default: site.description }}"
+  url: "{{ site.url }}"
+  author: "{{ site.author }}"
+  image: "{{ site.style.header-image }}"  # default image for social sharing
+  twitter: "@QCSoccer"                   # Optional: your Twitter handle
+  facebook: "https://www.facebook.com/QueenCityStandouts" # Optional
