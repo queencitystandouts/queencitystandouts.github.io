@@ -1,0 +1,23 @@
+<!-- Timed Free Clinic Pop-up -->
+<div class="modal fade" id="freeClinicPopup" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center p-4">
+      <h4>Join our Free Soccer Clinic!</h4>
+      <p>Sign up today and get a free session with Queen City Standouts.</p>
+      <a href="https://calendly.com/queencitystandouts/free-clinic" class="btn btn-primary">Book Now</a>
+      <button type="button" class="btn btn-secondary mt-2" data-bs-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    var popupEl = document.getElementById('freeClinicPopup');
+    if (popupEl) {
+      var popup = new bootstrap.Modal(popupEl);
+      popup.show();
+    }
+  }, 5000); // 5-second delay
+});
+</script>
