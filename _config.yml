@@ -1,49 +1,50 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
-
 # Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+url: "https://queencitystandouts.com"
+baseurl: ""
 
-
-url    : "https://queencitystandouts.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-
-title      : Queen City Standouts
-email      : queencitystandouts@gmail.com
+title: Queen City Standouts
+email: queencitystandouts@gmail.com
 description: Private soccer training in Charlotte, NC for youth, high school, and advanced players.
-author     : 
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+author: Queen City Standouts
+locale: "en-US"
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+# Custom style settings
+style:
+  highlight: "#008080"   # teal
+  black: "#000000"
+  white: "#FFFFFF"
+  header-image: "/assets/img/placeholder-header.jpg"
+  contact-image: "/assets/img/placeholder-contact.jpg"
 
+# Analytics
 analytics:
-  google: #Google Analytics tracking code here
+  google: UA-XXXXXXXXX-X  # Replace with your GA tracking ID
 
+# Blog / Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Collections
 collections:
   portfolio:
 
+# Markdown processor
 markdown: kramdown
 
-paginate: 5            # Number of posts per page
-paginate_path: "/blog/page:num/"  # Path for additional pages
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate-v2
+
+# Popup settings (custom variable you can reference in layout)
+popup:
+  show: true
+  title: "Join Our Free Clinic!"
+  message: "Sign up for a free soccer clinic and see how QCS can help you improve."
+  button_text: "Reserve Spot"
+  button_link: "https://calendly.com/queencitystandouts/free-clinic"
 
   pagination:
   enabled: true
