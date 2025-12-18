@@ -1,4 +1,30 @@
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome / Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet">
+
+  <!-- Agency CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/agency.css' | relative_url }}">
+
+  <!-- Optional custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+  <!-- Calendly Widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
   <!-- Google Analytics -->
   {% if site.analytics.google %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
@@ -10,64 +36,7 @@
   </script>
   {% endif %}
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="{{ site.author }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-  <meta property="og:image" content="{{ site.data.style.header-image | default: 'assets/img/header.jpg' }}">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{{ site.description }}">
-  <meta name="twitter:image" content="{{ site.data.style.header-image | default: 'assets/img/header.jpg' }}">
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsActivityLocation",
-    "name": "{{ site.title }}",
-    "image": "{{ site.data.style.header-image | default: 'assets/img/header.jpg' }}",
-    "description": "{{ site.description }}",
-    "url": "{{ site.url }}",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Charlotte",
-      "addressRegion": "NC",
-      "postalCode": "282xx",
-      "streetAddress": "Add your address here"
-    },
-    "telephone": "704-255-5442"
-  }
-  </script>
-
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Font Awesome / Google Fonts -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="assets/css/agency.css" rel="stylesheet" />
-  <!-- In _includes/head.html -->
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
-  <!-- Calendly Widget -->
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
-  <!-- Optional Page Padding for Pages -->
+  <!-- Optional page padding -->
   {% if page.layout == "page" %}
   <style>
     #pagecontainer {
@@ -80,7 +49,4 @@
     }
   </style>
   {% endif %}
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 </head>
