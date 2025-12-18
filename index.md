@@ -1,6 +1,8 @@
 ---
 layout: home
 
+---
+
 {% include header.html %}
 
 {% include services.html %}
@@ -17,4 +19,4 @@ layout: home
 
 {% include contact.html %}
 
----
+
