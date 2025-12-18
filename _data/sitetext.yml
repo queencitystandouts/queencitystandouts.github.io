@@ -78,14 +78,15 @@ en-US:
   team:
     title: "Meet Our Coaches"
     text: "Professional soccer coaches dedicated to your development."
-    subtext: "Our coaching staff combines professional playing experience with years of training expertise."
+    subtext: "Our coaching staff combines professional playing experience with years of training expertise, 
+    from professional to D1 we've done it all so we now what it takes to reach the next level."
     section: team
     people:
-      - name: "Adam Smith"
+      - name: "Adam Habas"
         role: "Head Coach"
         image: "assets/img/team/coach-adam-private-soccer-charlotte.jpg"
-        alt: "Adam Smith private soccer coach in Charlotte North Carolina"
-      - name: "Luca Brown"
+        alt: "Adam Habas private soccer coach in Charlotte North Carolina"
+      - name: "Luca Radovanovic"
         role: "Assistant Coach"
         image: "assets/img/team/coach-luca-private-soccer-charlotte.jpg"
         alt: "Luca Brown soccer training coach in Charlotte NC"
