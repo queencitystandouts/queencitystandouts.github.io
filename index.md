@@ -2,6 +2,7 @@
 layout: home
 ---
 
+{% include hero.html %}
 {% include header.html %}
 {% include services.html %}
 {% include portfolio.html %}
