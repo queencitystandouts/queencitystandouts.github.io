@@ -71,23 +71,26 @@ permalink: /
 <!-- TEAM SECTION -->
 <!-- ========================= -->
 <section id="team" class="page-section bg-light">
-  <div class="container text-center">
-    <h2 class="section-heading text-uppercase">Meet Our Coaches</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="{{ '/assets/img/team/coach-adam.jpg' | relative_url }}" class="rounded-circle mb-3">
-        <h4>Coach Adam</h4>
-        <p>Head Coach – Expert in technical training and player development.</p>
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Meet Our Coaches</h2>
+      <p class="section-subheading text-muted">Elite trainers committed to your development.</p>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="assets/img/coach-adam.jpg" class="rounded-circle" alt="Coach Adam">
+        <h4 class="my-3">Coach Adam</h4>
+        <p class="text-muted">Specializes in 1-on-1 technical development and game IQ training.</p>
       </div>
-      <div class="col-md-4">
-        <img src="{{ '/assets/img/team/coach-sarah.jpg' | relative_url }}" class="rounded-circle mb-3">
-        <h4>Coach Sarah</h4>
-        <p>Assistant Coach – Focuses on fitness and tactical awareness.</p>
+      <div class="col-md-6">
+        <img src="assets/img/coach-luca.jpg" class="rounded-circle" alt="Coach Luca">
+        <h4 class="my-3">Coach Luca</h4>
+        <p class="text-muted">Focuses on small group dynamics and competitive match preparation.</p>
       </div>
     </div>
   </div>
 </section>
-
 <!-- ========================= -->
 <!-- CONTACT SECTION -->
 <!-- ========================= -->
