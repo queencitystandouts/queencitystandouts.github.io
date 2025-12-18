@@ -72,14 +72,49 @@ $contact-image: "assets/img/contact-placeholder.jpg";
 // ----------------------------
 // Pop-up / Modal Styling for Free Clinic
 // ----------------------------
+// ----------------------------
+// 5-Second Free Clinic Popup
+// ----------------------------
 .modal-free-clinic {
-  background-color: $white;
+  display: none; // CRITICAL: prevents instant load
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-free-clinic .modal-content {
+  background: $white;
   color: $black;
-  border: 2px solid $primary;
   padding: 2rem;
-  max-width: 600px;
-  margin: auto;
+  max-width: 400px;
+  width: 90%;
   text-align: center;
+  border-radius: 8px;
+  border: 2px solid $primary;
+}
+
+.modal-free-clinic h2 {
+  color: $primary;
+  margin-bottom: 1rem;
+}
+
+.modal-free-clinic .btn-primary {
+  background-color: $primary;
+  border-color: $black;
+  color: $white;
+
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}
+
+.modal-free-clinic .btn-light {
+  margin-top: 1rem;
+  border: 1px solid $primary;
+}
   h2 {
     color: $primary;
     margin-bottom: 1rem;
