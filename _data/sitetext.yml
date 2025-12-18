@@ -78,28 +78,15 @@ en-US:
     subtext: "Our coaching staff combines professional playing experience with years of training expertise."
     section: team
     people:
-      - name: "Adam Smith"
-        role: "Head Coach"
-        image: "assets/img/team/adam-coach-charlotte.jpg"
-        alt: "Coach Adam Smith demonstrating technique"
-        social:
-          - url: "https://twitter.com"
-            icon: "fab fa-twitter"
-          - url: "https://facebook.com"
-            icon: "fab fa-facebook-f"
-          - url: "https://linkedin.com"
-            icon: "fab fa-linkedin-in"
-      - name: "Luca Brown"
-        role: "Assistant Coach"
-        image: "assets/img/team/luca-coach-charlotte.jpg"
-        alt: "Coach Luca Brown coaching players"
-        social:
-          - url: "https://twitter.com"
-            icon: "fab fa-twitter"
-          - url: "https://facebook.com"
-            icon: "fab fa-facebook-f"
-          - url: "https://linkedin.com"
-            icon: "fab fa-linkedin-in"
+    - name: "Adam Smith"
+      role: "Head Coach"
+      image: "assets/img/team/coach-adam-private-soccer-charlotte.jpg"
+      alt: "Adam Smith private soccer coach in Charlotte North Carolina"
+
+    - name: "Luca Brown"
+      role: "Assistant Coach"
+      image: "assets/img/team/coach-luca-private-soccer-charlotte.jpg"
+      alt: "Luca Brown soccer training coach in Charlotte NC"
 
   clients:
     section: clients
