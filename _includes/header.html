@@ -1,23 +1,32 @@
-<header id="masthead" class="site-header">
-  <div class="container">
-    <!-- Logo / Site Title -->
-    <div class="site-branding">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Queen City Standouts Logo" />
-      </a>
-    </div>
+<!-- Announcement bar -->
+<div class="announcement-bar text-center py-2 bg-primary text-white">
+  <span>First session 50% off, or 100% off if you bring 2 or more players!</span>
+</div>
 
-    <!-- Navigation -->
-    <nav id="site-navigation" class="main-navigation">
-      <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#contact">Contact</a></li>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+    <!-- Company / Site Name -->
+    <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
+
+    <!-- Mobile toggle -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav links / Tabs -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto nav-tabs">
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
-    </nav>
+    </div>
   </div>
-</header>
+</nav>
