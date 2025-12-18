@@ -75,7 +75,6 @@ permalink: /
       </p>
     </div>
 
-    {% include portfolio-grid.html %}
   </div>
 </section>
 
