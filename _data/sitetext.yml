@@ -6,19 +6,27 @@ en-US:
     buttonlink: "#contact"
 
   services:
-    title: "Soccer Training Services in Charlotte"
-    text: "Personalized soccer training programs designed to help players improve faster and stand out."
-    section: services
-    list:
-      - title: "1-on-1 Private Soccer Training"
-        desc: "Focused private soccer training in Charlotte to improve ball mastery, confidence, and decision-making."
-        icon: fas fa-user
-      - title: "Small Group Soccer Training"
-        desc: "High-intensity small group sessions that replicate real game situations."
-        icon: fas fa-users
-      - title: "Player Development & Game Analysis"
-        desc: "Structured development plans and performance analysis to accelerate improvement."
-        icon: fas fa-chart-line
+  title: "Private Soccer Training in Charlotte"
+  text: "Elite one-on-one and small group soccer training designed to accelerate player development."
+  section: services
+  list:
+    - title: "1-on-1 Private Soccer Training"
+      desc: "Personalized private soccer training in Charlotte focused on technical mastery, confidence, and performance."
+      icon: "fas fa-futbol"
+      image: "assets/img/services/private-soccer-training-charlotte.jpg"
+      alt: "One-on-one private soccer training in Charlotte North Carolina"
+
+    - title: "Small Group Soccer Training"
+      desc: "High-intensity small group soccer sessions that develop decision-making and game intelligence."
+      icon: "fas fa-users"
+      image: "assets/img/services/small-group-soccer-training-charlotte.jpg"
+      alt: "Small group soccer training session in Charlotte NC"
+
+    - title: "Game Film & Performance Analysis"
+      desc: "Professional soccer performance analysis to identify strengths and areas for improvement."
+      icon: "fas fa-chart-line"
+      image: "assets/img/services/soccer-performance-analysis-charlotte.jpg"
+      alt: "Soccer performance and game film analysis in Charlotte"
 
   about:
     title: "About Queen City Standouts"
