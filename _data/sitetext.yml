@@ -6,27 +6,27 @@ en-US:
     buttonlink: "#contact"
 
   services:
-  title: "Private Soccer Training in Charlotte"
-  text: "Elite one-on-one and small group soccer training designed to accelerate player development."
-  section: services
-  list:
-    - title: "1-on-1 Private Soccer Training"
-      desc: "Personalized private soccer training in Charlotte focused on technical mastery, confidence, and performance."
-      icon: "fas fa-futbol"
-      image: "assets/img/services/private-soccer-training-charlotte.jpg"
-      alt: "One-on-one private soccer training in Charlotte North Carolina"
+    title: "Private Soccer Training in Charlotte"
+    text: "Elite one-on-one and small group soccer training designed to accelerate player development."
+    section: services
+    list:
+      - title: "1-on-1 Private Soccer Training"
+        desc: "Personalized private soccer training in Charlotte focused on technical mastery, confidence, and performance."
+        icon: "fas fa-futbol"
+        image: "assets/img/services/private-soccer-training-charlotte.jpg"
+        alt: "One-on-one private soccer training in Charlotte North Carolina"
 
-    - title: "Small Group Soccer Training"
-      desc: "High-intensity small group soccer sessions that develop decision-making and game intelligence."
-      icon: "fas fa-users"
-      image: "assets/img/services/small-group-soccer-training-charlotte.jpg"
-      alt: "Small group soccer training session in Charlotte NC"
+      - title: "Small Group Soccer Training"
+        desc: "High-intensity small group soccer sessions that develop decision-making and game intelligence."
+        icon: "fas fa-users"
+        image: "assets/img/services/small-group-soccer-training-charlotte.jpg"
+        alt: "Small group soccer training session in Charlotte NC"
 
-    - title: "Game Film & Performance Analysis"
-      desc: "Professional soccer performance analysis to identify strengths and areas for improvement."
-      icon: "fas fa-chart-line"
-      image: "assets/img/services/soccer-performance-analysis-charlotte.jpg"
-      alt: "Soccer performance and game film analysis in Charlotte"
+      - title: "Game Film & Performance Analysis"
+        desc: "Professional soccer performance analysis to identify strengths and areas for improvement."
+        icon: "fas fa-chart-line"
+        image: "assets/img/services/soccer-performance-analysis-charlotte.jpg"
+        alt: "Soccer performance and game film analysis in Charlotte"
 
   about:
     title: "About Queen City Standouts"
@@ -78,15 +78,14 @@ en-US:
     subtext: "Our coaching staff combines professional playing experience with years of training expertise."
     section: team
     people:
-    - name: "Adam Smith"
-      role: "Head Coach"
-      image: "assets/img/team/coach-adam-private-soccer-charlotte.jpg"
-      alt: "Adam Smith private soccer coach in Charlotte North Carolina"
-
-    - name: "Luca Brown"
-      role: "Assistant Coach"
-      image: "assets/img/team/coach-luca-private-soccer-charlotte.jpg"
-      alt: "Luca Brown soccer training coach in Charlotte NC"
+      - name: "Adam Smith"
+        role: "Head Coach"
+        image: "assets/img/team/coach-adam-private-soccer-charlotte.jpg"
+        alt: "Adam Smith private soccer coach in Charlotte North Carolina"
+      - name: "Luca Brown"
+        role: "Assistant Coach"
+        image: "assets/img/team/coach-luca-private-soccer-charlotte.jpg"
+        alt: "Luca Brown soccer training coach in Charlotte NC"
 
   clients:
     section: clients
@@ -100,54 +99,31 @@ en-US:
       - title: "High Schools"
         url: "#"
         logo: "assets/img/clients/highschool.jpg"
-        alt: "High school soccer program" 
-      desc: "Queen City Standouts was founded to provide elite private and small group soccer training in Charlotte, NC."
-      image: "assets/img/timeline/1.jpg"
-      alt: "Founding team photo"
-    - title: "Expanded Programs"
-      year: "2015"
-      desc: "Introduced small group sessions and advanced technical training for youth and adult players."
-      image: "assets/img/timeline/2.jpg"
-      alt: "Small group soccer training session"
-    - title: "Online Resources"
-      year: "2020"
-      desc: "Added online video analysis and training guides for players looking to improve from home."
-      image: "assets/img/timeline/3.jpg"
-      alt: "Video analysis for soccer training"
-  end: "Join us and elevate your game!"
+        alt: "High school soccer program logo"
 
-about:
-  title: "About Queen City Standouts"
-  text: "Why Choose Us?"
-  body: "Coaches Adam and Luca are professional and collegiate athletes who bring real-world experience to every session. Our training focuses on fast results, technical mastery, and effective coaching — helping players excel efficiently and confidently."
-  section: about
+  contact:
+    title: "Contact Us for Private Soccer Training in Charlotte"
+    text: "Call or text 704-255-5442 or fill out the form below."
+    section: contact
+    name: "Full Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
 
-
-
-contact:
-  title: "Contact Us for Private Soccer Training in Charlotte"
-  text: "Call or text 704-255-5442 or fill out the form below."
-  section: contact
-  name: "Full Name*"
-  name-validation: "Please enter your name."
-  email: "Email*"
-  email-validation: "Please enter your email address."
-  phone: "Phone Number"
-  phone-validation: "Please enter your phone number."
-  message: "Message*"
-  message-validation: "Please enter a message."
-  subject: "Contact Form Submission"
-  submit: "Send Message"
-
-footer:
-  legal: "Privacy Policy"
-  social:
-    - url: "https://twitter.com"
-      icon: "fab fa-twitter"
-    - url: "https://facebook.com"
-      icon: "fab fa-facebook-f"
-    - url: "https://linkedin.com"
-      icon: "fab fa-linkedin-in"
-    - url: "https://instagram.com"
-      icon: "fab fa-instagram"
-
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: "https://twitter.com"
+        icon: "fab fa-twitter"
+      - url: "https://facebook.com"
+        icon: "fab fa-facebook-f"
+      - url: "https://linkedin.com"
+        icon: "fab fa-linkedin-in"
+      - url: "https://instagram.com"
+        icon: "fab fa-instagram"
