@@ -1,0 +1,47 @@
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <h2>{{ site.data.sitetext[site.locale].portfolio.title }}</h2>
+    <p>{{ site.data.sitetext[site.locale].portfolio.text }}</p>
+
+    <div class="portfolio-items">
+      {% for item in site.data.sitetext[site.locale].portfolio.items %}
+      <div class="portfolio-item">
+        <a href="{{ item.image | relative_url }}" target="_blank">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
+          <h3>{{ item.title }}</h3>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.portfolio-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.portfolio-item {
+  width: 300px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #008080;
+}
+
+.portfolio-item h3 {
+  margin-top: 0.5rem;
+  color: #008080;
+}
+</style>
