@@ -74,7 +74,7 @@ permalink: /
         Real players. Real improvement.
       </p>
     </div>
-
+{% include portfolio-grid.html %}
   </div>
 </section>
 
