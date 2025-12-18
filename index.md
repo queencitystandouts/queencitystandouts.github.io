@@ -6,90 +6,33 @@ permalink: /
 ---
 
 <!-- ========================= -->
+<!-- ANNOUNCEMENT BANNER -->
+<!-- ========================= -->
+<div class="announcement-bar">
+  First session 50% off or 100% off if you bring 2 or more!
+</div>
+
+<!-- ========================= -->
 <!-- HERO SECTION -->
 <!-- ========================= -->
 <section class="hero">
-  <div
-    class="hero-image"
-    style="background-image: url('{{ "/assets/img/hero-soccer.jpg" | relative_url }}');"
-  ></div>
-
+  <div class="hero-image" style="background-image: url('{{ "/assets/img/hero-soccer.jpg" | relative_url }}');"></div>
   <div class="hero-text">
     <h1>The Best Private Soccer Training in Charlotte</h1>
     <p>Elite 1-on-1 & small group soccer training for serious players</p>
-    <a href="#contact" class="btn btn-primary btn-hero">
-      Book Your First Session
-    </a>
+    <a href="#contact" class="btn btn-primary btn-hero">Book Your First Session</a>
   </div>
 </section>
 
 <!-- ========================= -->
-<!-- SERVICES SECTION -->
-<!-- ========================= -->
-<section id="services" class="page-section">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">Training Services</h2>
-      <p class="section-subheading text-muted">
-        Personalized soccer training built to help players excel.
-      </p>
-    </div>
-
-    <div class="row text-center">
-      <div class="col-md-4">
-        <h4 class="my-3">Private 1-on-1 Training</h4>
-        <p class="text-muted">
-          Individualized sessions focused on technical mastery, speed,
-          confidence, and game intelligence.
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <h4 class="my-3">Small Group Training</h4>
-        <p class="text-muted">
-          High-intensity group sessions designed to simulate real-game pressure
-          while maintaining personal attention.
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <h4 class="my-3">Player Development Plans</h4>
-        <p class="text-muted">
-          Long-term development strategies tailored to each athlete’s goals,
-          position, and level.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================= -->
-<!-- PORTFOLIO / RESULTS -->
-<!-- ========================= -->
-<section id="portfolio" class="page-section bg-light">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">Player Results</h2>
-      <p class="section-subheading text-muted">
-        Real players. Real improvement.
-      </p>
-    </div>
-{% include portfolio-grid.html %}
-  </div>
-</section>
-
-<!-- ========================= -->
-<!-- ABOUT -->
+<!-- ABOUT SECTION -->
 <!-- ========================= -->
 <section id="about" class="page-section">
   <div class="container">
     <div class="text-center">
       <h2 class="section-heading text-uppercase">About Queen City Standouts</h2>
-      <p class="section-subheading text-muted">
-        Building confident, disciplined, and elite soccer players.
-      </p>
+      <p class="section-subheading text-muted">Building confident, disciplined, and elite soccer players.</p>
     </div>
-
     <p class="text-center">
       Queen City Standouts is dedicated to developing high-level soccer players
       through focused training, mentorship, and accountability. Our mission is
@@ -99,17 +42,61 @@ permalink: /
 </section>
 
 <!-- ========================= -->
-<!-- CONTACT -->
+<!-- SERVICES SECTION -->
+<!-- ========================= -->
+<section id="services" class="page-section">
+  <div class="container text-center">
+    <h2 class="section-heading text-uppercase">Training Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{ '/assets/img/icons/private-training.png' | relative_url }}" class="rounded-circle mb-3">
+        <h4>Private 1-on-1 Training</h4>
+        <p>Individualized sessions focused on technical mastery, speed, confidence, and game intelligence.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="{{ '/assets/img/icons/small-group.png' | relative_url }}" class="rounded-circle mb-3">
+        <h4>Small Group Training</h4>
+        <p>High-intensity group sessions designed to simulate real-game pressure while maintaining personal attention.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="{{ '/assets/img/icons/player-development.png' | relative_url }}" class="rounded-circle mb-3">
+        <h4>Player Development Plans</h4>
+        <p>Long-term development strategies tailored to each athlete’s goals, position, and level.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- TEAM SECTION -->
+<!-- ========================= -->
+<section id="team" class="page-section bg-light">
+  <div class="container text-center">
+    <h2 class="section-heading text-uppercase">Meet Our Coaches</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{ '/assets/img/team/coach-adam.jpg' | relative_url }}" class="rounded-circle mb-3">
+        <h4>Coach Adam</h4>
+        <p>Head Coach – Expert in technical training and player development.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="{{ '/assets/img/team/coach-sarah.jpg' | relative_url }}" class="rounded-circle mb-3">
+        <h4>Coach Sarah</h4>
+        <p>Assistant Coach – Focuses on fitness and tactical awareness.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= -->
+<!-- CONTACT SECTION -->
 <!-- ========================= -->
 <section id="contact" class="page-section">
   <div class="container">
     <div class="text-center">
       <h2 class="section-heading text-uppercase">Contact Us</h2>
-      <p class="section-subheading text-muted">
-        Book your first session today.
-      </p>
+      <p class="section-subheading text-muted">Book your first session today.</p>
     </div>
-
     {% include contact.html %}
   </div>
 </section>
