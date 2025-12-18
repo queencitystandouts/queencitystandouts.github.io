@@ -30,7 +30,7 @@ permalink: /
 <section id="about" class="page-section">
   <div class="container">
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">About Queen City Standouts</h2>
+      <h2 class="section-heading text-uppercase">Website Coming Soon!</h2>
       <p class="section-subheading text-muted">Building confident, disciplined, and elite soccer players.</p>
     </div>
     <p class="text-center">
